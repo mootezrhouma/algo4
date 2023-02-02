@@ -1,0 +1,25 @@
+ALGORITHM Sort
+VAR
+    i,j,current : INTEGER;
+BEGIN
+    FOR i FROM 1 TO arr.length-1 
+    DO
+        key := arr [i];
+        j := i-1;
+        WHILE (key < array[j] && j >= 0) DO
+        DO
+            arr[j+1] := arr[j];
+            i := j-1;
+            --j;
+        END_WHILE
+        arr[j+1] = key;
+    END_FOR
+
+
+ALGORITHM 
+BEGIN
+// appelle de procedures 
+    n=saisie(n)
+    remplir(t,n)
+    tri(t,n)
+END
